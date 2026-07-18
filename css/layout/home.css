@@ -65,4 +65,30 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
+.service{
+  padding: 60px 5%;
+  background-color: var(--cor-fundo6);
+  text-align: center;
+}
 
+.service_title{
+  font-family: var(--fonte-principal);
+  color: var(--cor-texto2);
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+.service__cards-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service__card{
+  background: var(--cor-fundo4);
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  text-align: left;
+
+}

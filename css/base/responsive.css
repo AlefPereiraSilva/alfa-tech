@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-  .header__container {
+  .header {
     padding: 15px 5%;
   }
 
@@ -26,14 +26,42 @@
     max-width: 500px;
   }
 
+  .footer {
+    padding: 30px 5%;
+  }
+
   .footer__container {
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer__brand-wrapper {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer__slogan {
+    font-size: 16px;
+    max-width: 150px;
+  }
+
+  .footer__nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer__link {
+    font-size: 14px;
   }
 }
 
 @media (max-width: 480px) {
-  .header__container {
+  .header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,10 +140,10 @@
   }
 
   .footer__nav {
-    align-items: center;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
     gap: 12px;
   }
 
@@ -162,6 +190,14 @@
   .footer__slogan {
     font-size: 16px;
     letter-spacing: 0.5px;
+  }
+
+  .footer_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   .footer__social {
