@@ -1,0 +1,8 @@
+@import 'base/reset.css';
+@import 'base/variables.css';
+
+@import 'layout/header.css';
+@import 'layout/home.css';
+@import 'layout/footer.css';
+
+@import 'base/responsive.css';

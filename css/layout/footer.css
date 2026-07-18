@@ -1,0 +1,114 @@
+.footer {
+  background-color: var(--cor-fundo5);
+  padding: 50px 5% 40px 5%;
+  color: var(--cor-texto1);
+  font-family: var(--fonte-principal);
+}
+
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.footer__brand-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__brand {
+  max-width: 130px;
+  height: auto;
+  background-color: var(--cor-fundo4);
+  border-radius: 6px;
+  display: block;
+}
+
+.footer__slogan {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--cor-texto1);
+  opacity: 0.9;
+  margin-top: 8px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  max-width: 180px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer__link {
+  color: var(--cor-texto1);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  align-self: flex-start;
+  padding-bottom: 3px;
+  transition: 0.3s ease;
+}
+
+.footer__link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--cor-fundo);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.footer__link:hover {
+  color: var(--cor-texto1);
+}
+
+.footer__link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  opacity: 0.8;
+  transition:
+    opacity 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.footer__social-link:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-3px);
+}
+
+.footer__icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
