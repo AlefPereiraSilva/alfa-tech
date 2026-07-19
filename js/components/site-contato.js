@@ -1,6 +1,10 @@
+import { buscarCep } from "/js/services/buscarCep.js"
+
+import { consultaCep_form } from "/js/services/consultaCep_form.js"
+
 class SiteContato extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = /*html*/ `
+  connectedCallback() {
+    this.innerHTML = /*html*/ `
         <section class='contact' id='contato'>
             <div class='contact__container'>
                 <h2 class='contact__title'>Fale Conosco</h2>
@@ -34,7 +38,9 @@ class SiteContato extends HTMLElement {
                 </div>
             </div>
         </section> `
-    }
+
+    consultaCep_form(this)
+  }
 }
 
 customElements.define("site-contato", SiteContato)
