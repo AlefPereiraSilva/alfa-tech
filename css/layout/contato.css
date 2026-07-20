@@ -1,3 +1,7 @@
+site-contato {
+  display: block;
+}
+
 .contact {
   padding: 60px 5%;
   background-color: var(--cor-fundo6);
@@ -35,8 +39,13 @@
 .contact__group textarea {
   padding: 12px;
   border: 1px solid var(--cor-fundo7);
+  border-radius: 4px;
   font-family: var(--fonte-secundaria);
   font-size: 16px;
+}
+
+.contact__group textarea {
+  resize: vertical;
 }
 
 .contact__group input[readonly] {

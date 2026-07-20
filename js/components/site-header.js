@@ -3,7 +3,7 @@ class SiteHeader extends HTMLElement {
     this.innerHTML = /* html */ `
       <div class='header'>
         <div class='header__brand'>
-          <a href='#home'><img src='/assets/images/logo4.png' alt='AlfaTech_logo'></a> 
+          <a href='#home'><img src='./assets/images/logo4.png' alt='AlfaTech'></a>
         </div>
         <nav class='header__nav' aria-label='menu principal'>
           <a href='#products' class='header__link'>Produtos</a>
@@ -16,4 +16,3 @@ class SiteHeader extends HTMLElement {
 }
 
 customElements.define("site-header", SiteHeader)
-

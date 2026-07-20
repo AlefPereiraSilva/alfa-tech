@@ -1,10 +1,14 @@
-import { buscarCep } from "/js/services/buscarCep.js"
+import {
+    buscarCep
+} from "../services/buscarCep.js"
 
-import { consultaCep_form } from "/js/services/consultaCep_form.js"
+import {
+    consultaCep_form
+} from "../services/consultaCep_form.js"
 
 class SiteContato extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = /*html*/ `
+    connectedCallback() {
+        this.innerHTML = /*html*/ `
         <section class='contact' id='contato'>
             <div class='contact__container'>
                 <h2 class='contact__title'>Fale Conosco</h2>
@@ -19,7 +23,7 @@ class SiteContato extends HTMLElement {
                     </div>
                     <div class='contact__group contact__group-cep'>
                         <label for='cep'>CEP:</label>
-                        <input type='text' id='cep' maxlength='8' required placeholder='Digite apenas numeros'>
+                        <input type='text' id='cep' maxlength='8' required placeholder='Digite apenas números'>
                         <small id='cep-status'></small>
                     </div>
                     <div class='contact__group'>
@@ -30,17 +34,17 @@ class SiteContato extends HTMLElement {
                         <label for='mensagem'>Mensagem:</label>
                         <textarea id='mensagem' rows='4' required placeholder='Como podemos ajudar?'></textarea>
                     </div>
-                    <button type='submit' class='contact__button'> Enviar Mensagem</button>
+                    <button type='submit' class='contact__button'>Enviar Mensagem</button>
                 </form>
                 <div id='agradecimento' class='contact__success' style='display: none;'>
-                    <h3> Obrigado pelo contato!</h3>
-                    <p> Nossa equipe técnica retornará em breve.</p>
+                    <h3>Obrigado pelo contato!</h3>
+                    <p>Nossa equipe técnica retornará em breve.</p>
                 </div>
             </div>
         </section> `
 
-    consultaCep_form(this)
-  }
+        consultaCep_form(this)
+    }
 }
 
 customElements.define("site-contato", SiteContato)

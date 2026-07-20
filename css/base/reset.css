@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 html {
   scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+main {
+  overflow-x: hidden;
 }

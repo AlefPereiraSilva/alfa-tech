@@ -1,3 +1,7 @@
+site-footer {
+  display: block;
+}
+
 .footer {
   background-color: var(--cor-fundo5);
   padding: 25px 5%;

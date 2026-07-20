@@ -71,7 +71,7 @@
   text-align: center;
 }
 
-.service_title {
+.service__title {
   font-family: var(--fonte-principal);
   color: var(--cor-texto2);
   margin-bottom: 40px;
@@ -155,7 +155,7 @@
   flex-grow: 1;
 }
 
-.products-card__price {
+.product-card__price {
   font-size: 1.3rem;
   font-weight: bold;
   color: var(--cor-texto4);

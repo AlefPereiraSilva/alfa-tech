@@ -1,4 +1,4 @@
-import { buscarCep } from "/js/services/buscarCep.js"
+import { buscarCep } from "./buscarCep.js"
 
 export function consultaCep_form(componente) {
   const form = componente.querySelector("#form-contato")
@@ -8,6 +8,11 @@ export function consultaCep_form(componente) {
   const agradecimentoDiv = componente.querySelector("#agradecimento")
 
   if (!form || !cepInput || !cidadeInput) return
+
+  cepInput.addEventListener("input", () => {
+    cepStatus.textContent = ""
+    cidadeInput.value = ""
+  })
 
   cepInput.addEventListener("blur", async () => {
     if (!cepInput.value) return

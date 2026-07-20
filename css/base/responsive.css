@@ -91,10 +91,9 @@
     width: 100%;
   }
 
-  .header__brand {
-    max-width: 110px;
-    height: auto;
-    margin: 0 auto;
+  .header__brand img {
+    height: 40px;
+    width: auto;
   }
 
   .header__nav {
@@ -120,9 +119,11 @@
   }
 
   .hero__button {
+    display: block;
     width: 100%;
     max-width: 280px;
     padding: 12px 20px;
+    box-sizing: border-box;
   }
 
   .hero__image {
@@ -196,8 +197,8 @@
 }
 
 @media (max-width: 320px) {
-  .header__brand {
-    max-width: 95px;
+  .header__brand img {
+    height: 35px;
   }
 
   .header__nav {

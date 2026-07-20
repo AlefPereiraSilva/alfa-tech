@@ -1,9 +1,9 @@
-@import "base/reset.css";
-@import "base/variables.css";
+@import "./base/reset.css";
+@import "./base/variables.css";
 
-@import "layout/header.css";
-@import "layout/home.css";
-@import "layout/contato.css";
-@import "layout/footer.css";
+@import "./layout/header.css";
+@import "./layout/home.css";
+@import "./layout/contato.css";
+@import "./layout/footer.css";
 
-@import "base/responsive.css";
+@import "./base/responsive.css";

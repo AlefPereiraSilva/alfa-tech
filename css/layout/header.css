@@ -1,3 +1,14 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+site-header {
+  display: block;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -5,12 +16,9 @@
   padding: 18px 5%;
   background-color: var(--cor-fundo);
   border-bottom: 1px solid var(--cor-borda, rgba(0, 0, 0, 0.1));
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
-.header__brand{
+.header__brand {
   background-color: var(--cor-fundo4);
   padding: 5px 15px;
   border-radius: 8px;
