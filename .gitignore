@@ -1,0 +1,13 @@
+# Editor e Extensões (VS Code, Live Server, Live Preview)
+.vscode/
+.live-server/
+.livepreview/
+
+# Arquivos de log e cache de Linters (ex: ESLint, Prettier, Stylelint)
+.eslintcache
+.stylelintcache
+*.log
+
+# Arquivos temporários do Sistema Operacional
+.DS_Store
+Thumbs.db
