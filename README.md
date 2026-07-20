@@ -4,7 +4,10 @@ Landing Page responsiva e utilizando Web Components.
 
 ## Funcionalidades Obrigatórias Atendidas
 
--**Estrutura Git:**Histórico organizado com as branches `main` e `develop`. -**Cabeçalho & Slogan:** Componentes dedicados a criar uma identidade visual. -**Formulário de Contato:** Validação e comportamento dinâmico. -**Integração com API:** Busca automática de endereço consumindo a API ViaCep.
+-**Estrutura Git:** Histórico organizado com as branches `main` e `develop`. 
+-**Cabeçalho & Slogan:** Componentes dedicados a criar uma identidade visual. 
+-**Formulário de Contato:** Validação e comportamento dinâmico. 
+-**Integração com API:** Busca automática de endereço consumindo a API ViaCep.
 
 ## Estrutura de Pastas do Projeto
 
@@ -19,6 +22,6 @@ O projeto está organizado por pastas:
 
 ## Tecnologias Utilizadas
 
-- HTML5 Semântico
-- CSS3 (Variáveis nativas e layout responsivo)
-- JavaScript Vanilla (ES6+, Modules, Custom Elements e Async/Await)
+- HTML5 
+- CSS3 
+- JavaScript 
