@@ -39,6 +39,36 @@ class SiteHome extends HTMLElement {
         </div>
         
       </section>
+
+      <section class='products' id='products'>
+        <h2 class='products__title'>Produtos em Destaque</h2>
+        <p class='products__intro'>Equipamentos de alta qualidade e com o melhor custo-benefício do mercado, para clientes com altas espectativas.</p>
+        <div class='products__container'>
+        <div class='product-card'>
+          <div class='product-card__image-placeholder'>💻</div>
+          <h3 class='product-card__title'>Notebook Gamer</h3>
+          <p class='product-card__description'>Processador i9 de última geração, 32GB de Memória DDR5, SSD 2TB. Perfeito para clientes que tem necessidade de alta perfomance.</p>
+          <span class='product-card-price'>R$ 12.000,00</span>
+          <a href='#contato' class='product-card__button'> Tenho Interesse no Produto</a>
+        </div>
+
+        <div class='product-card'>
+          <div class='product-card__image-placeholder'>🖥️</div>
+          <h3 class='product-card__title'>Monitor Ultra Wide </h3>
+          <p class='product-card__description'>Painel IPS, 144HZ e resolução 8K. Mais Espaço em tela para maior produtividade .</p>
+          <span class='product-card-price'>R$ 3.000,00</span>
+          <a href='#contato' class='product-card__button'> Tenho Interesse no Produto</a>
+        </div>
+
+        <div class='product-card'>
+          <div class='product-card__image-placeholder'>⌨️</div>
+          <h3 class='product-card__title'>Kit Perifericos Premium</h3>
+          <p class='product-card__description'>Teclado Mecânico ultra-silencioso, com botoes de ação adicionais e Mouse ergonômico Ambi-Destro sem fio com baterias de longa duração. </p>
+          <span class='product-card__price'>R$ 800,00</span>
+          <a href='#contato' class='product-card__button'> Tenho Interesse no Produto</a>
+        </div>
+        </div>
+      </section>
     `
   }
 }

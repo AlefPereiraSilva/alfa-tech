@@ -26,6 +26,28 @@
     max-width: 500px;
   }
 
+  .products {
+    padding: 40px 5%;
+  }
+
+  .products__title {
+    font-size: 1.8rem;
+  }
+
+  .products__container {
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .product-card {
+    width: 240px;
+    padding: 15px;
+  }
+
+  .product-card__title {
+    font-size: 1.1rem;
+  }
+
   .footer {
     padding: 30px 5%;
   }
@@ -39,8 +61,8 @@
   }
 
   .footer__brand-wrapper {
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    text-align: center;
   }
 
   .footer__slogan {
@@ -49,10 +71,9 @@
   }
 
   .footer__nav {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
   }
 
   .footer__link {
@@ -106,6 +127,22 @@
 
   .hero__image {
     max-width: 100%;
+  }
+
+  .products__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .products__title {
+    font-size: 1.6rem;
+  }
+
+  .product-card {
+    width: 90%;
+    max-width: 290px;
+    padding: 20px;
   }
 
   .footer {
@@ -192,7 +229,7 @@
     letter-spacing: 0.5px;
   }
 
-  .footer_nav {
+  .footer__nav {
     display: flex;
     flex-direction: column;
     align-items: center;

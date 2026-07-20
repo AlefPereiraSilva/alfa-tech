@@ -5,7 +5,7 @@ class SiteFooter extends HTMLElement {
         <div class='footer__container'>
           <div class='footer__brand-wrapper'>
             <a href='#home'>
-              <img class='footer__brand' src='/assets/images/logo4.png' alt='logo'></a> 
+              <img class='footer__brand' src='/assets/images/logo3.png' alt='logo'></a> 
             <p class='footer__slogan'>Inovando o Agora</p>
           </div>
           <nav class='footer__nav'>

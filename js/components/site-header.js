@@ -6,7 +6,7 @@ class SiteHeader extends HTMLElement {
           <a href='#home'><img src='/assets/images/logo4.png' alt='AlfaTech_logo'></a> 
         </div>
         <nav class='header__nav' aria-label='menu principal'>
-          <a href='produtos.html' class='header__link'>Produtos</a>
+          <a href='#products' class='header__link'>Produtos</a>
           <a href='#service' class='header__link'>Serviços</a>
           <a href='#contato' class='header__link'>Fale Conosco</a>
         </nav>

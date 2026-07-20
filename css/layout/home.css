@@ -65,30 +65,115 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.service{
+.service {
   padding: 60px 5%;
   background-color: var(--cor-fundo6);
   text-align: center;
 }
 
-.service_title{
+.service_title {
   font-family: var(--fonte-principal);
   color: var(--cor-texto2);
   margin-bottom: 40px;
   font-size: 36px;
 }
 
-.service__cards-container{
+.service__cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 
-.service__card{
+.service__card {
   background: var(--cor-fundo4);
   padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   text-align: left;
+}
 
+.products {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: var(--cor-fundo2);
+}
+
+.products__title {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  font-family: var(--fonte-principal);
+  color: var(--cor-texto1);
+}
+
+.products__intro {
+  margin-bottom: 40px;
+  font-family: var(--fonte-principal);
+  color: var(--cor-texto5);
+}
+
+.products__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: var(--fonte-principal);
+  background: var(--cor-fundo4);
+  border-radius: 8px;
+  padding: 24px;
+  width: 250px;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-card__image-placeholder {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.product-card__title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--cor-texto2);
+}
+
+.product-card__description {
+  font-size: 0.9rem;
+  color: var(--cor-texto2);
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.products-card__price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--cor-texto4);
+  margin-bottom: 16px;
+}
+
+.product-card__button {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto1);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.product-card__button:hover {
+  background-color: var(--cor-fundo3);
 }
