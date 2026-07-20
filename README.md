@@ -1,27 +1,24 @@
-# Landing Page
+# Alfa Tech - Landing Page
 
 Landing Page responsiva e utilizando Web Components.
 
 ## Funcionalidades Obrigatórias Atendidas
 
--**Estrutura Git:** Histórico organizado com as branches `main` e `develop`. 
--**Cabeçalho & Slogan:** Componentes dedicados a criar uma identidade visual. 
--**Formulário de Contato:** Validação e comportamento dinâmico. 
--**Integração com API:** Busca automática de endereço consumindo a API ViaCep.
+-**Estrutura Git:** Histórico organizado com as branches `main` e `develop`. -**Cabeçalho & Slogan:** Componentes dedicados a criar uma identidade visual. -**Formulário de Contato:** Validação e comportamento dinâmico. -**Integração com API:** Busca automática de endereço consumindo a API ViaCep.
 
 ## Estrutura de Pastas do Projeto
 
-O projeto está organizado por pastas:
+O projeto está organizado da seguinte forma:
 
 - `assets/` — Ícones e imagens do projeto.
 - `css/` — Estilização separada por escopo (base, layout) unificados no `main.css`.
 - `js/`
   - `components/` — Web Components reutilizáveis (`site-header`, `site-home`, `site-contato`, `site-footer`).
   - `services/` — Lógica de requisição assíncrona (`buscarCep.js`) e manipulação do formulário (`consultaCep_form.js`).
-- `pages/` — Onde se encontra o arquivo principal `index.html`.
+- `index.html` — Arquivo principal do site, localizado na raiz do projeto.
 
 ## Tecnologias Utilizadas
 
-- HTML5 
-- CSS3 
-- JavaScript 
+- HTML5
+- CSS3
+- JavaScript
