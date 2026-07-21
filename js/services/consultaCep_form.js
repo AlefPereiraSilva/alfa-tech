@@ -7,7 +7,7 @@ export function consultaCep_form(componente) {
   const cidadeInput = componente.querySelector("#cidade")
   const agradecimentoDiv = componente.querySelector("#agradecimento")
 
-  if (!form || !cepInput || !cidadeInput) return
+  if (!form || !cepInput || !cidadeInput || !agradecimentoDiv) return
 
   cepInput.addEventListener("input", () => {
     cepStatus.textContent = ""
